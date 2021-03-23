@@ -41,9 +41,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     data_type = 'test'
-    ShapeNetv1_dir = '/home/cuda/Alex/PC-NBV/Shapenet_v1/'
-    model_dir = '/home/cuda/Alex/PC-NBV/Shapenet_v1/' + data_type
-    output_dir = '/home/cuda/Alex/PC-NBV/Output_model_blender/' + data_type
+    ShapeNetv1_dir = '/home/cuda/Alex/trai/PC-NBV/Shapenet_v1/'
+    model_dir = '/home/cuda/Alex/trai/PC-NBV/Shapenet_v1/' + data_type
+    output_dir = '/home/cuda/Alex/trai/PC-NBV/Output_model_blender/' + data_type
 
     intrinsics = np.loadtxt(os.path.join(output_dir, 'intrinsics.txt'))
     width = int(intrinsics[0, 2] * 2)

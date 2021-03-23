@@ -1,4 +1,4 @@
-cd /home/cuda/Alex/PC-NBV/tf_ops
+cd /home/cuda/Alex/trai/PC-NBV/tf_ops
 
 cd approxmatch
 
